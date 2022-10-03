@@ -33,3 +33,31 @@ p img {
 p {
   text-align: center;
 }
+
+nav ul {
+  background-color: #ec8510;
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid #052387;
+  }
+
+  nav ul li {
+
+  }
+
+  nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1px solid #052387;
+    display: block;
+  }
+
+nav ul li a:hover {
+  background-color: #041094
+}
+
+  nav ul li:last-child a {
+    border-bottom: none;
+  }
