@@ -47,7 +47,7 @@ nav ul {
   }
 
   nav ul li a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     padding: 8px;
     border-bottom: 1px solid #052387;
@@ -55,9 +55,25 @@ nav ul {
   }
 
 nav ul li a:hover {
-  background-color: #041094
+  background-color: ##4fb2d6
 }
 
   nav ul li:last-child a {
     border-bottom: none;
   }
+
+  .screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
