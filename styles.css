@@ -1,11 +1,21 @@
-h1 {
+body {
+  font-family: sans-serif;
+  }
+
+h1#site-title {
   color: #3a136e;
   font-family: papyrus;
-  font-size: 60px
+  font-size: 80px
 }
 
-p {
-  background: #9db8ff;
+h1#article-title {
+  color: #3a136e;
+  font-family: garamond;
+  font-size: 45px
+}
+
+p#main-paragraph {
+  text-align: center;
 }
 
 figure {
@@ -14,9 +24,23 @@ figure {
 }
 
 figure img {
-  width: 30%;
+  width: 100%;
     height: auto;
   margin-bottom: 14px;
+}
+
+figure.main-image {
+  float: center;
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px
+}
+
+figure.section-image {
+  float: right;
+  max-width: 69%;
+  margin-right: 800px;
 }
 
 p img {
@@ -30,8 +54,8 @@ p img {
   margin-right: 800px;
 }
 
-p {
-  text-align: center;
+p#paragraph {
+  text-align: left;
 }
 
 nav ul {
