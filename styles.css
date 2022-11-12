@@ -18,15 +18,18 @@ p#main-paragraph {
   text-align: center;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 figure {
   border: 1px solid black;
   padding: 30px
 }
 
 figure img {
-  width: 100%;
-    height: auto;
-  margin-bottom: 14px;
+    margin-bottom: 14px;
 }
 
 figure.main-image {
@@ -38,9 +41,12 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: right;
-  max-width: 69%;
-  margin-right: 800px;
+  float: center;
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px
+
 }
 
 p img {
@@ -65,6 +71,13 @@ nav ul {
   padding-left: 0;
   border: 1px solid #052387;
   }
+
+@media all and (min-width: 391px) {
+  nav ul {
+    background-color: #ec8510;
+    display: inline-block;
+  }
+}
 
   nav ul li {
 
