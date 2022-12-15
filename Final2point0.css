@@ -1,5 +1,8 @@
 body {
   font-family: sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/top-view-roasted-coffee-beans-isolated-white-background-with-copy-space_141793-7129.jpg?w=1380&t=st=1671070836~exp=1671071436~hmac=a8c2781f6d74a15747a66e4116c345eb5473883177df00d845a2dbea7877e595);
+  background-repeat: no-repeat
+
   }
 
 h1#site-title {
@@ -111,7 +114,7 @@ figure.main-image {
 
 figure.section-image {
   float: center;
-  max-width: 50%;
+  max-width: 29.6%;
   margin: auto;
   border: 1px solid black;
   padding: 10px
