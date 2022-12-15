@@ -1,0 +1,120 @@
+body {
+  font-family: sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/top-view-roasted-coffee-beans-isolated-white-background-with-copy-space_141793-7129.jpg?w=1380&t=st=1671070836~exp=1671071436~hmac=a8c2781f6d74a15747a66e4116c345eb5473883177df00d845a2dbea7877e595);
+  background-repeat: no-repeat
+  }
+
+h1#site-title {
+  color: #3a136e;
+  font-family: Times New Roman;
+  font-size: 80px
+}
+
+li#BP-1 {
+  color: #14B714;
+  font-family: garamond;
+  font-size: 45px
+}
+
+li#BP-2 {
+  color: #14B714;
+  font-family: garamond;
+  font-size: 45px
+}
+
+  li#BP-3 {
+    color: #14B714;
+    font-family: garamond;
+    font-size: 45px
+}
+
+li#BP-4 {
+  color: #14B714;
+  font-family: garamond;
+  font-size: 45px
+}
+
+h1#article-title {
+  color: #771800;
+  font-family: garamond;
+  font-size: 45px
+}
+
+h2#second-article-title {
+  color: #771800;
+  font-family: Georgia;
+  font-size: 45px
+}
+
+h3#third-article-title {
+  color: #771800;
+  font-family: papyrus;
+  font-size: 45px
+}
+
+figcaption#fig-1 {
+  color: #3a136e;
+  font-family: Georgia;
+  font-size: 20px
+}
+
+figcaption#fig-2 {
+  color: #3a136e;
+  font-family: Georgia;
+  font-size: 20px
+}
+
+figcaption#fig-3 {
+  color: #3a136e;
+  font-family: Georgia;
+  font-size: 20px
+}
+
+p#main-paragraph {
+  text-align: center;
+  color: #3a136e;
+  font-family: garamond;
+  font-size: 20px
+}
+
+p#paragraph {
+  text-align: center;
+  float: right;
+  color: #3a136e;
+  font-family: garamond;
+  font-size: 20px
+}
+
+p#second-paragraph {
+  text-align: center;
+  color: #3a136e;
+  font-family: garamond;
+  font-size: 20px
+  }
+
+figure {
+  border: 1px solid black;
+  padding: 30px
+}
+
+figure img {
+  width: 100%;
+    height: auto;
+  margin-bottom: 14px;
+}
+
+figure.main-image {
+  float: center;
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px
+}
+
+figure.section-image {
+  float: center;
+  max-width: 29.6%;
+  margin: auto;
+  border: 1px solid black
+  padding: 10px
+}
